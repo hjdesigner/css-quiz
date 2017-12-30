@@ -47,6 +47,7 @@
           answers.push(
             '<label>'
             + '<input type="radio" name="question' + i + '" value="' + letter + '">'
+            + '<div class="checkbox"></div>'
             + letter + ': '
             + questions[i].answers[letter]
             + '</label>'
@@ -108,6 +109,5 @@
     }
 
   }
-  alert('asdf');
 })();
 
