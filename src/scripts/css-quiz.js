@@ -4,7 +4,7 @@
     {
       question: "What is 10/2?",
       answers: {
-        a: '30',
+        a: '3',
         b: '5',
         c: '115'
       },
