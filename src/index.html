@@ -33,9 +33,24 @@
       Quiz CSS</h1>
   </header>
   <div class="main">
-    <div class="quiz" data-js="quiz"></div>
+    <div class="buttons-level-quiz">
+      <button data-js="buttons-level" data-level="beginner">Iniciante</button>
+      <button data-js="buttons-level" data-level="intermediary">Intermediário</button>
+      <button data-js="buttons-level" data-level="advanced">Avançado</button>
+    </div>
+    <div class="quiz">
+      <div data-js="quiz-beginner"></div>
+      <button data-js="submit">Enviar Quiz</button>
+    </div>
+    <div class="quiz">
+      <div data-js="quiz-intermediary"></div>
+      <button data-js="submit">Enviar Quiz</button>
+    </div>
+    <div class="quiz">
+      <div data-js="quiz-advanced"></div>
+      <button data-js="submit">Enviar Quiz</button>
+    </div>
     <div data-js="results"></div>
-    <button data-js="submit">Enviar Quiz</button>
 
   </div>
 
